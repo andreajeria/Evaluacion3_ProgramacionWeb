@@ -1,0 +1,74 @@
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Menú principal */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.boton {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Formularios */
+.formulario {
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Resultados */
+.resultado {
+    text-align: center;
+    margin-top: 20px;
+}
